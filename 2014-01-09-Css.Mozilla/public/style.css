@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+div#main {
+width: 960px;
+margin: 0px auto;
+padding: 5px 3px 2px 1px;
+}
+
+Body{
+background-image:url(/images/bg-sand.png);
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #c13832;
+  font-size: 84px;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+  text-align:center;
+  margin:0px;
+}
+
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 55px;
+  letter-spacing: -0.025em;
+  text-align:center;
+  margin: 0px;
+}
+
+nav li{
+  list-style-type:none;
+  display:inline-block;
+  padding :12px;
+}
+
+nav a {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #484848;
+}
+
+nav 1:hover{
+  text-decoration:underline;
+}
+
+nav ul{
+float: right;
+}
+.clear{
+  clear: both;
+}
+
+#news {
+background-color#c1423d;
+}
