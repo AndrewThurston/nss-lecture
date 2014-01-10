@@ -76,3 +76,29 @@ var daysPerYear = 365;
 var totalDays = years * 365;
 console.log(totalDays);
 
+var  firstName = prompt('Enter your first name');
+console.log('your first name is ' + firstName);
+var lastName = prompt('Enter your last name');
+console.log('your full name is ' +firstName +' ' + lastName);
+
+var l = prompt('Enter the length of your room');
+l = parseInt(l);
+var w = prompt('Enter the width of your room');
+w = parseInt(w);
+var h =prompt('Enter the height of your room');
+h = parseInt(h);
+var volume = l * w * h;
+console.log('the volume of your room is ' + volume);
+
+var age= prompt('what is your age');
+age = parseInt(age);
+if(age < 18)
+  console.log('you cannot vote');
+else
+ console.log('you can vote');
+
+
+
+
+
+
