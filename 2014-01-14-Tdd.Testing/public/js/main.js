@@ -39,3 +39,16 @@ function makeCatWithName(string){
   cat.name = (string);
   return cat;
 }
+/*
+function makeCatWithName(name){
+  var cat={name:name}
+  return cat;
+}
+*/
+/*
+function makeCatWithName(name){
+  return {name:name};
+}
+*/
+
+
