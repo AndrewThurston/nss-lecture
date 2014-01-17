@@ -52,9 +52,6 @@ function compute(){
   var operator = this.id;
   $('#queueClear').text('Clear Display')
   var $lis =$('#queue li');
-  var results;
-  var numbers = parseTags($lis);
-
   /*
   var $lis =$('#queue li');
   var x = parseFloat($lis[0].textContent);
@@ -63,9 +60,6 @@ function compute(){
   switch(operator){
     case 'add':
       parseTags($lis);
-
-
-
       var $lis =$('#queue li');
       var x = parseFloat($lis[0].textContent);
       var y = parseFloat($lis[1].textContent);
