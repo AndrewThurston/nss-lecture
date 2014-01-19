@@ -1,56 +1,88 @@
 @import url(http://fonts.googleapis.com/css?family=Crimson+Text);
 
+body{
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 40px;
+}
+#all{
+  Box-sizing:Border-Box;
+}
+#cal{
+  width:80%
+}
+#qu{
+  width:20%
+}
 .clear{
   clear:both;
-}
-
-#all{
-  border-style:solid;
-  border-color:red;
+  Box-sizing:Border-Box;
 }
 
 #display{
   border-style:solid;
   border-color:green;
+  float:left;
+  width: 100%
+  Box-sizing:Border-Box;
 }
 
 #queue{
   border-style:solid;
-  border-color:green;
+  border-color: black;
+  width:140px;
+  height: 240px;
+  Box-sizing:Border-Box;
+  width:25%
+
 }
 
 #keypad{
-  border-style:solid;
-  border-color:yellow;
+  float:none;
+  width:275px;
+  Box-sizing:Border-Box;
 }
 
 .inputs, .ops{
-width: 20px;
-height: 20px;
-margin: 10px;
-padding: 20px;
-font-weight:bold;
-font-size: 20px;
-
+  //width: 15px;
+  //height: 15px;
+  font-weight:bold;
+  font-size: 20px;
+  width: 15%
+  Box-sizing:Border-Box;
 }
 
 .inputs{
   border-style:solid;
   border-color:blue;
   display:inline-block;
+  Box-sizing:Border-Box;
 }
 .ops{
   border-style:solid;
   display:inline-block;
   border-color:purple;
+  Box-sizing:Border-Box;
 }
 
 #push{
   border-style:solid;
   border-color:#C0C0C0;
+  width:50%
+  Box-sizing:Border-Box;
 }
 
-#clear{
+#queueClear{
   border-style:solid;
   border-color:#00FFFF;
+  width:50%
+  Box-sizing:Border-Box;
+}
+
+#footer { 
+  position:fixed;
+  left: 0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
 }
