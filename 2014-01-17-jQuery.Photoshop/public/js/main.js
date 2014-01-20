@@ -7,22 +7,21 @@ function initialize(){
   $('#pixels').on('mouseover', '.pixel', hoverColorPixel);
 }
 
-function clickAddPixels(){
-  var num = $('#number-text').val();
-  num = parseInt(num);
-
-  for(var i=0; i<num; i++){
-    var $pixel = $('<div>');
-    $pixel.addClass('pixel');
-    $('pixels').prepend($pixel);
-  }
-}
-
 function hoverColorPixel(){
   var color = $('.selected').css('background-color');
-  $(this).css('background-color', color);
+    $(this).css('background-color', color);
 }
 
+function clickAddPixels(){
+    var num = $('#number-text').val();
+      num = parseInt(num);
+
+  for(var i = 0; i < num; i++){
+    var $pixel = $('<div>');
+    $pixel.addClass('pixel');
+    $('#pixels').prepend($pixel);
+  }
+}
 
 function clickSelectColor(){
   if ($(this).hasClass('selected')){
